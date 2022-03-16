@@ -52,13 +52,13 @@
   background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/body-branch/images/illustration-header-mobile.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  padding: 120px 24px;
+  padding: 0px 24px;
 }
 
 #greatings {
   font-family: "crete round", serif;
   color: #ff6b00;
-  font-size: 55px;
+  font-size: 55.5px;
 }
 
 #hero {
