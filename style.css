@@ -10,9 +10,9 @@
 .material-icons {
   color: #FFFFFF;
 }
+
+
 /*Header styling*/
-
-
 
 .header {
   display: flex;
@@ -24,7 +24,7 @@
   background-color: #3C3A39;
   color: #FFFFFF;
   padding: 10px 0px;
-  position: fixed;
+  position: sticky;
   width:100vw
 }
 
@@ -36,4 +36,17 @@
 #menu {
   margin-right: 10px;
 }
+
+/* self presentation styling */
+ #presentation { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1C1A19;
+    background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/body-branch/images/illustration-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
 
