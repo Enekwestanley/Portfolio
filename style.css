@@ -1,0 +1,88 @@
+/* fonts roboto, poppins and crete round */
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.material-icons {
+  color: #fff;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "roboto", serif;
+  background-color: #3c3a39;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  width: 100vw;
+}
+
+#name {
+  font-family: "roboto", serif;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+#name:hover {
+  color: #ff6b00;
+}
+
+#menu {
+  margin-right: 10px;
+}
+
+/* self presentation styling */
+#presentation {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1c1a19;
+  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/body-branch/images/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 0 24px;
+}
+
+#greatings {
+  font-family: "crete round", serif;
+  color: #ff6b00;
+  font-size: 55.5px;
+}
+
+#hero {
+  font-family: "roboto", serif;
+  color: #fff5e1;
+  font-size: 24px;
+}
+
+#invitation {
+  font-family: "poppins", serif;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Metia Icons Styling */
+#media-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 21.9px 5px;
+}
+
+.fa {
+  width: 20px;
+}
