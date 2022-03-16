@@ -39,14 +39,34 @@
 
 /* self presentation styling */
  #presentation { 
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #1C1A19;
-    background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/body-branch/images/illustration-header-mobile.png);
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #1C1A19;
+  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/body-branch/images/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+  padding:120px 24px;
 }
 
+#greatings {
+  font-family: "crete round";
+  color: #FF6B00;
+  font-size: 55px;
+}
+
+#hero {
+  font-size: "roboto";
+  color:#FFF5E1;
+  font-size: 24px;
+}
+
+#invitation {
+  font-size: "poppins";
+  color:#FFFFFF;
+  font-size: 16px;
+  margin-top: 10px;
+}
 
