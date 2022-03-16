@@ -7,3 +7,33 @@
   box-sizing: border-box;
 }
 
+.material-icons {
+  color: #FFFFFF;
+}
+/*Header styling*/
+
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "roboto";
+  background-color: #3C3A39;
+  color: #FFFFFF;
+  padding: 10px 0px;
+  position: fixed;
+  width:100vw
+}
+
+#name {
+  font-size: 16px;
+  margin-left: 24px;
+} 
+
+#menu {
+  margin-right: 10px;
+}
+
