@@ -91,3 +91,23 @@ html, body {
 .fa {
   width: 20px;
 }
+
+/* My recent works heading Styling */
+
+#cards-heading {
+  padding: 120px 24px 80px 24px;
+}
+
+.My-Works-Titles{
+  font-size: 40px;
+  font-family: "crete round", serif;
+  padding: 120px 24px 24px 24px;
+}
+
+hr {
+  border: 0.25px solid #212121;
+  background: #212121;
+  margin:0px 24px 80px 24px ;
+}
+
+
