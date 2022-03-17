@@ -1,5 +1,5 @@
 /* fonts roboto, poppins and crete round */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -102,6 +102,7 @@ html, body {
   font-size: 40px;
   font-family: "crete round", serif;
   padding: 120px 24px 24px 24px;
+  font-weight: 400;
 }
 
 hr {
@@ -109,5 +110,63 @@ hr {
   background: #212121;
   margin:0px 24px 80px 24px ;
 }
+
+/* cards secction styling */
+
+#post-Stories{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 24px;
+}
+.categories {
+  display: flex;
+}
+
+#Stories-image {
+  margin-bottom: 24px;
+}
+
+.Stories-title {
+  font-family: "crete round", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#post-Stories p {
+ font-family: "inter", serif;
+ font-size: 16px;
+ font-weight: 400;
+ padding: 12px 0px;
+}
+
+.Categorie-button {
+  text-decoration: none;
+  font-family:"inter", serif;
+  font-size: 15px;
+  color: #091E42;
+}
+
+.list {
+  list-style: none;
+  border: #8993A4 1px solid;
+  padding: 8px 12px;
+  margin-right: 12px;
+}
+
+.button-Stories {
+  margin: 12px 0px; 
+  padding: 12px;
+  background-color: #ff6b00;
+  border-style: none;
+  font-family: "inter", serif;
+  font-weight:700;
+  font-size: 17px;
+  color: #fff;
+}
+
+
+
+
 
 
