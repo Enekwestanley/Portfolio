@@ -57,7 +57,7 @@ body {
   background-color: #1c1a19;
   background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/main/images/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 120%;
   padding: 0 24px;
 }
 
@@ -106,10 +106,12 @@ body {
   font-weight: 400;
 }
 
-hr {
-  border: 0.25px solid #212121;
+.work-header hr {
+  border: none;
+  height: 0.5px;
   background: #212121;
   margin: 0 24px 80px 24px;
+
 }
 
 /* cards secction styling */
@@ -295,4 +297,94 @@ hr {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
+}
+
+.abilities {
+  background-color: #1C1A19;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 136px;
+  padding-bottom: 136px;
+}
+
+hr.inline {
+  border: none;
+  background-color:#fff;
+  height: 1px;
+  margin: 0px 24px;
+ 
+}
+
+.language {
+  background-image: url(../Portfolio/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 35px;
+  font-family: "inter", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFF;
+}
+
+.capabilities {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:44.73px;
+  font-family: "Inter", serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFF;
+}
+
+.capabilities ul {
+  list-style: none;
+  padding-bottom:44px;
+}
+
+.cap-list {
+  padding-bottom: 10px;
+}
+
+.frameworks {
+  background-image: url(../Portfolio/images/Rectangle56.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 35px;
+  font-family: "inter", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFF;
+}
+
+.skills {
+  background-image: url(../Portfolio/images/circle.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 35px;
+  font-family: "inter", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFF;
 }
