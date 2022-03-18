@@ -242,6 +242,14 @@ body {
   margin-bottom: 120px;
 }
 
+.button-card:hover {
+  background-color: #ee9a5e;
+}
+
+.button-Stories:hover {
+  background-color: #ee9a5e;
+}
+
 /* About section styling */
 .about {
   background-color: #1c1a19;
