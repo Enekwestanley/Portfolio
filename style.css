@@ -323,7 +323,7 @@ hr.inline {
 }
 
 .language {
-  background-image: url(../Portfolio/images/Rectangle.png);
+  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/Rectangle.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
@@ -362,7 +362,7 @@ hr.inline {
 }
 
 .frameworks {
-  background-image: url(../Portfolio/images/Rectangle56.png);
+  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/Rectangle56.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
@@ -377,7 +377,7 @@ hr.inline {
 }
 
 .skills {
-  background-image: url(../Portfolio/images/circle.png);
+  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/circle.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
