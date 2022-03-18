@@ -242,10 +242,6 @@ body {
   margin-bottom: 120px;
 }
 
-.button-card:hover {
-  background-color: #ee9a5e;
-}
-
 .button-Stories:hover {
   background-color: #ee9a5e;
 }
@@ -289,6 +285,10 @@ body {
   font-weight: 700;
   font-size: 17px;
   color: #fff;
+}
+
+.button-card:hover {
+  background-color: #ee9a5e;
 }
 
 .software-developer {
