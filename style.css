@@ -111,7 +111,6 @@ body {
   height: 0.5px;
   background: #212121;
   margin: 0 24px 80px 24px;
-
 }
 
 /* cards secction styling */
@@ -177,7 +176,7 @@ body {
 .cards {
   display: flex;
   flex-direction: column;
-  padding: 0px 24px;
+  padding: 0 24px;
 }
 
 .card-photo-container {
@@ -186,26 +185,26 @@ body {
 }
 
 .card-title {
-  font-family: "Crete", Round;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #fff;
   margin: 84px 16px 12px 16px;
 }
 
 .card-description {
-  margin: 0px 16px 12px 16px;
+  margin: 0 16px 12px 16px;
   color: #fff;
   font-family: "Inter", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -229,30 +228,26 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
 }
 
-.cards .button-Stories{
-  margin:0;
-}
-
-.cards{
-  padding-bottom: 0px;
+.cards .button-Stories {
+  margin: 0;
 }
 
 #card7 {
   margin-bottom: 120px;
 }
 
-/*About section styling*/
+/* About section styling */
 .about {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/aboutbg.png);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 98%;
   padding-bottom: 220px;
 }
 
@@ -261,7 +256,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px 24px;
+  margin: 0 24px;
 }
 
 .myself {
@@ -272,7 +267,7 @@ body {
   line-height: 88px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
-  color: #FF6B00;
+  color: #ff6b00;
   padding-top: 120px;
 }
 
@@ -288,19 +283,19 @@ body {
   color: #fff;
 }
 
-.software-developer { 
+.software-developer {
   font-family: "Inter", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #fff;
 }
 
 .abilities {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
 }
 
 .flex-container {
@@ -309,15 +304,14 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 136px;
-  padding-bottom: 136px;
+  padding-bottom: 60px;
 }
 
 hr.inline {
   border: none;
-  background-color:#fff;
+  background-color: #fff;
   height: 1px;
-  margin: 0px 24px;
- 
+  margin: 0 24px;
 }
 
 .language {
@@ -330,29 +324,29 @@ hr.inline {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFF;
+  color: #fff;
 }
 
 .capabilities {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap:44.73px;
+  gap: 44.73px;
   font-family: "Inter", serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 43px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 
 .capabilities ul {
   list-style: none;
-  padding-bottom:44px;
+  padding-bottom: 44px;
 }
 
 .cap-list {
@@ -369,9 +363,9 @@ hr.inline {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFF;
+  color: #fff;
 }
 
 .skills {
@@ -384,7 +378,7 @@ hr.inline {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFF;
+  color: #fff;
 }
