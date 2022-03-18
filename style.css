@@ -116,7 +116,7 @@ hr {
 .grid-cards-container {
   display: grid;
   grid-template-rows: 1.5fr repeat(6, 1fr);
-  gap: 10px;
+  gap: 20px;
 }
 
 #post-Stories {
@@ -248,6 +248,51 @@ hr {
 /*About section styling*/
 .about {
   background-color: #1C1A19;
+  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/aboutbg.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding-bottom: 220px;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 24px;
+}
 
+.myself {
+  font-family: "Crete Round", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #FF6B00;
+  padding-top: 120px;
+}
+
+.button-card {
+  align-self: baseline;
+  margin: 12px 0;
+  padding: 12px;
+  background-color: #ff6b00;
+  border-style: none;
+  font-family: "inter", serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+
+.software-developer { 
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
