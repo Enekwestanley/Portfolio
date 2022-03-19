@@ -96,7 +96,7 @@ body {
 /* My recent works heading Styling */
 
 #cards-heading {
-  padding: 120px 24px 80px 24px;
+  padding: 120px 24px 80px 24px; 
 }
 
 .My-Works-Titles {
@@ -180,7 +180,7 @@ body {
 }
 
 .card-photo-container {
-  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/cardbg.png);
+  background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/cardbg.png?raw=true);
   background-repeat: no-repeat;
 }
 
@@ -249,7 +249,7 @@ body {
 /* About section styling */
 .about {
   background-color: #1c1a19;
-  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/aboutbg.png);
+  background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/aboutbg.png?raw=true);
   background-repeat: no-repeat;
   background-position: 100% 98%;
   padding-bottom: 220px;
@@ -323,7 +323,7 @@ hr.inline {
 }
 
 .language {
-  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/Rectangle.png);
+  background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/Rectangle.png?raw=true);
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
@@ -362,7 +362,7 @@ hr.inline {
 }
 
 .frameworks {
-  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/Rectangle56.png);
+  background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/Rectangle56.png?raw=true);
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
@@ -377,7 +377,7 @@ hr.inline {
 }
 
 .skills {
-  background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/phase2/images/circle.png);
+  background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/circle.png?raw=true);
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
