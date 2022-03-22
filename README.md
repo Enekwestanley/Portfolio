@@ -13,9 +13,15 @@
 
 👤 **Andrés Garzon**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/andgarzonmal)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andres-garzon-maldonado-951a2a180/)
+
+👤 **Sunday Stanley**
+
+- GitHub: [@githubhandle](https://github.com/idungstanley)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sundaystanley56)
 
 ## Show your support
 
@@ -25,6 +31,3 @@ Give a ⭐️ if you like this project!
 
 - for Microverse curriculum projects
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
