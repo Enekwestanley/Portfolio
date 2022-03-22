@@ -96,7 +96,7 @@ body {
 /* My recent works heading Styling */
 
 #cards-heading {
-  padding: 120px 24px 80px 24px; 
+  padding: 120px 24px 80px 24px;
 }
 
 .My-Works-Titles {
@@ -393,14 +393,13 @@ hr.inline {
 
 /* form styling */
 
-
-.form-container{
+.form-container {
   display: flex;
   flex-direction: column;
 }
 
-.form-header{
-  display:flex;
+.form-header {
+  display: flex;
   justify-content: center;
   padding: 120px 24px 73px 24px;
   font-family: "Inter", serif;
@@ -408,34 +407,34 @@ hr.inline {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #172B4D; 
+  color: #172b4d;
 }
 
 .form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 24px 124px 24px;
+  padding: 0 24px 124px 24px;
 }
 
 .ul-form {
   display: flex;
   flex-direction: column;
   list-style: none;
-  width:100%;
+  width: 100%;
 }
 
-.form-input{
-  border: 1px #DBD8D7 solid;
+.form-input {
+  border: 1px #dbd8d7 solid;
   border-top: none;
   border-right: none;
   border-left: none;
   margin-bottom: 39px;
   padding: 14px;
   outline: none;
-  width:100%;
+  width: 100%;
 }
 
 .form-input::placeholder {
@@ -444,19 +443,19 @@ hr.inline {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 #text {
-  border-top: 12px #FBF8F7 solid;
-  border-left: 12px #FBF8F7 solid;
-  border-right: 12px #FBF8F7 solid;
-  border-bottom: 3px #FBF8F7 solid;
+  border-top: 12px #fbf8f7 solid;
+  border-left: 12px #fbf8f7 solid;
+  border-right: 12px #fbf8f7 solid;
+  border-bottom: 3px #fbf8f7 solid;
   outline: none;
-  background-color:#FBF8F7;
+  background-color: #fbf8f7;
   height: 114px;
-  width:100%;
+  width: 100%;
 }
 
 #text::placeholder {
@@ -465,12 +464,12 @@ hr.inline {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
-.submit{
+.submit {
   padding: 12px;
   background-color: #ff6b00;
   border-style: none;
@@ -491,12 +490,12 @@ hr.inline {
 }
 
 .upper-line-break {
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .form-li {
   display: flex;
-  width:100%;
+  width: 100%;
 }
 
 .footer-container {
@@ -524,7 +523,7 @@ footer {
   justify-content: center;
   align-content: center;
   width: 40%;
-  background: #0D151E;
+  background: #0d151e;
   height: 5px;
   border-radius: 10px;
   margin-bottom: 8px;
