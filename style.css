@@ -490,8 +490,46 @@ hr.inline {
   border: 1px solid #ff6b00;
 }
 
+.upper-line-break {
+  background: #DFE1E6;
+}
+
 .form-li {
   display: flex;
   width:100%;
 }
 
+.footer-container {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 23px;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-footer {
+  margin-right: 20px;
+}
+
+.line-break {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  background: #0D151E;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.m {
+  margin-right: 0;
+}
