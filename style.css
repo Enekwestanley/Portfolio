@@ -96,7 +96,7 @@ body {
 /* My recent works heading Styling */
 
 #cards-heading {
-  padding: 120px 24px 80px 24px; 
+  padding: 120px 24px 80px 24px;
 }
 
 .My-Works-Titles {
@@ -389,4 +389,146 @@ hr.inline {
   letter-spacing: 0;
   text-align: left;
   color: #fff;
+}
+
+/* form styling */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 73px 24px;
+  font-family: "Inter", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px 124px 24px;
+}
+
+.ul-form {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.form-input {
+  border: 1px #dbd8d7 solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 39px;
+  padding: 14px;
+  outline: none;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  font-family: "Inter", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+#text {
+  border-top: 12px #fbf8f7 solid;
+  border-left: 12px #fbf8f7 solid;
+  border-right: 12px #fbf8f7 solid;
+  border-bottom: 3px #fbf8f7 solid;
+  outline: none;
+  background-color: #fbf8f7;
+  height: 114px;
+  width: 100%;
+}
+
+#text::placeholder {
+  font-family: "Inter", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #3c3a39;
+}
+
+.submit {
+  padding: 12px;
+  background-color: #ff6b00;
+  border-style: none;
+  font-family: "inter", serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  margin: auto;
+  margin-top: 36px;
+  align-self: center;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.upper-line-break {
+  background: #dfe1e6;
+}
+
+.form-li {
+  display: flex;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 23px;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-footer {
+  margin-right: 20px;
+}
+
+.line-break {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  background: #0d151e;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.m {
+  margin-right: 0;
 }
