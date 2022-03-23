@@ -92,7 +92,7 @@ body {
   margin-top: 10px;
 }
 
-/* Metia Icons Styling */
+/* Media Icons Styling */
 #media-icons {
   list-style: none;
   display: flex;
@@ -105,7 +105,38 @@ body {
   width: 20px;
 }
 
-@media screen and (min-width:760px) {
+
+/* My recent works heading Styling */
+
+
+.work-header {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+#cards-heading {
+  padding: 120px 24px 80px 24px;
+}
+
+.My-Works-Titles {
+  font-size: 40px;
+  font-family: "crete round", serif;
+  padding: 0px 24px 24px 24px;
+  font-weight: 400;
+}
+
+ .work-header hr {
+  border: none;
+  height: 0.5px;
+  background: #212121;
+  margin: 0 24px 0px 24px;
+} 
+
+/*##################
+####################
+####################*/
+
+@media screen and (min-width:768px) {
   
   /* NAV MEDIA QUERIE*/
   .desktop {
@@ -136,7 +167,6 @@ body {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-
     padding-left: 13%;
   }
 
@@ -155,7 +185,6 @@ body {
   
   .social-media {
     order:-1;
-
   }
   
   #media-icons {
@@ -205,6 +234,28 @@ body {
     letter-spacing: 0em;
     text-align: left;
   }
+
+  /*RESENTS WORKS SECCTION*/
+
+  .works {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .My-Works-Titles {
+    padding: 0px 24px 0px 24px;
+  }
+  .work-header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .hr {
+    flex:1;
+    margin: 0;
+    padding: 0;
+  }
+
 }
 
 @media screen and (min-width:1025px) {
@@ -245,29 +296,12 @@ body {
     letter-spacing: 0em;
     text-align: left;
   }
+
 }
 
-
-/* My recent works heading Styling */
-
-#cards-heading {
-  padding: 120px 24px 80px 24px;
-}
-
-.My-Works-Titles {
-  font-size: 40px;
-  font-family: "crete round", serif;
-  padding: 120px 24px 24px 24px;
-  font-weight: 400;
-}
-
-.work-header hr {
-  border: none;
-  height: 0.5px;
-  background: #212121;
-  margin: 0 24px 80px 24px;
-}
-
+/*##################
+####################
+####################*/
 /* cards secction styling */
 .grid-cards-container {
   display: grid;
