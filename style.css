@@ -17,22 +17,35 @@ body {
   color: #fff;
 }
 
-/* Header styling */
-.header {
+.nav{
   display: flex;
   flex-direction: row;
-  list-style: none;
   justify-content: space-between;
   align-items: center;
   font-family: "roboto", serif;
   background-color: #3c3a39;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 0px;
   position: sticky;
   width: 100vw;
 }
 
-#name {
+.header {
+  display:flex;
+  justify-content:space-between;
+  list-style: none;
+  align-items: center;
+  width:40%;
+}
+
+.header li a {
+  margin: 0px 32px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#name { 
   font-family: "roboto", serif;
   color: #fff;
   font-size: 16px;
@@ -40,12 +53,24 @@ body {
   text-decoration: none;
 }
 
-#name:hover {
-  color: #ff6b00;
+.desktop {
+  display: none;
 }
 
-#menu {
-  margin-right: 10px;
+@media screen and (min-width:760px) {
+  .desktop {
+    display: contents;
+  }
+  .phone {
+    display:none;
+  }
+  
+  .header li {
+    margin: 0px 32px;
+    text-decoration: none;
+    color: #fff;
+  }
+
 }
 
 /* self presentation styling */
