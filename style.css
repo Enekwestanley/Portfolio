@@ -373,7 +373,7 @@ hr.inline {
 
 .capabilities ul {
   list-style: none;
-  padding-bottom: 44px;
+  padding-bottom: 44px; 
 }
 
 .cap-list {
@@ -540,7 +540,7 @@ hr.inline {
     grid-template-columns: 1.5fr repeat(auto-fit, 1fr);
   } */
 
-  /*ABOUT SECTION*/
+  /*ABOUT FIRST SECTION*/
 
   .about-me {
     align-items: flex-start;
@@ -548,13 +548,34 @@ hr.inline {
   }
   
   .about {
-    padding-left:68px ;
+    padding-left:68px;
+  
   }
 
   .about-container{
     background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/about-desk-bg.png?raw=true);
     background-position: 500px 40%;
+    padding-right: 86px;
   }
+  
+   /*ABOUT SECOND SECTION*/
+
+  .flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 24px;
+  }
+
+  .capabilities {
+    margin-right: 10.2%;
+    align-items: flex-start;
+  }
+
+  .capabilities ul{
+    text-align: left;
+  }
+
 }
 
 @media screen and (min-width:1025px) {
